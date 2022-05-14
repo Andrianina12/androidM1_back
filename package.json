@@ -1,0 +1,26 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Backend de l'application pour enfants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrianina12/androidM1_back.git"
+  },
+  "author": "Aina&Mihaja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrianina12/androidM1_back/issues"
+  },
+  "homepage": "https://github.com/Andrianina12/androidM1_back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.5.0"
+  }
+}
