@@ -58,7 +58,11 @@ app.listen(process.env.PORT || 3000,
     res.json(response);
   });
 
-
+  router.get("/getUser", async function(req, res){
+    console.log("req", req.body);
+    var response = await user.get(req.body);
+    res.json(response);
+  });
   // Global
   router.post("/course", async function(req, res){
     console.log("req", req.body);
